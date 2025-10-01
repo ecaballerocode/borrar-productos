@@ -1,0 +1,7 @@
+<script>
+    var redirect = window.location.pathname;
+    if (!redirect.endsWith("/")) {
+      redirect += "/";
+    }
+    window.location.replace(window.location.origin + "/malim-app/" + redirect);
+  </script>

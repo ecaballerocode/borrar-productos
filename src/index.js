@@ -28,19 +28,6 @@ import Login from './componentes/Login';
 
 
 function Root() {
-    const [user, setUser] = useState(null);
-
-    useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, (usuarioFirebase) => {
-            setUser(usuarioFirebase);
-        });
-        return () => unsubscribe();
-    }, []);
-
-    if (user === null) {
-        // 👇 Si no hay usuario logueado, mostramos login
-        return <Login onLogin={() => { }} />;
-    }
 
     // If you want to start measuring performance in your app, pass a function
     // to log results (for example: reportWebVitals(console.log))

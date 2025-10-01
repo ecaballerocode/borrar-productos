@@ -1,6 +1,6 @@
 {
   "name": "malim-app",
-  "homepage": "https://ecaballerocode.github.io/malim-app",
+  "homepage": "https://ecaballerocode.github.io/borrar-productos",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -56,6 +56,6 @@
   },
   "devDependencies": {
     "firebase-admin": "^13.5.0",
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.3.0"
   }
 }
